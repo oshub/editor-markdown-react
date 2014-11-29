@@ -1,0 +1,3 @@
+*.sublime-project
+build
+node_modules

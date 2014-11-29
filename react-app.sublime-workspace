@@ -1,0 +1,582 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"lik",
+				"LikeButton"
+			],
+			[
+				"btn",
+				"btnComprarIngresso"
+			],
+			[
+				"form",
+				"formaCompra"
+			],
+			[
+				"wid",
+				"widget-noticia-header"
+			],
+			[
+				"img",
+				"imgCapa"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"fontProxi",
+				"fontProximaBold"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 648,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "comments.json",
+			"settings":
+			{
+				"buffer_size": 218,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/view/app.jsx",
+			"settings":
+			{
+				"buffer_size": 707,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 177,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/alexandref93/Library/Application Support/Sublime Text 3/Packages/User/gulp_watch_src.sublime-snippet",
+			"settings":
+			{
+				"buffer_size": 305,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/alexandref93/Library/Application Support/Sublime Text 3/Packages/User/gulp_react.sublime-snippet",
+			"settings":
+			{
+				"buffer_size": 542,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"gulp_de",
+				"Snippet: gulp_default"
+			],
+			[
+				"gulp wa",
+				"Snippet: gulp_watch"
+			],
+			[
+				"gulpre",
+				"Snippet: gulp_react"
+			],
+			[
+				"gulpsas",
+				"Snippet: gulp_sass"
+			],
+			[
+				"gulp",
+				"Snippet: gulp_load_plugins"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"react compo",
+				"Snippet: React: componentDidMount: fn() { ... }"
+			],
+			[
+				"react initi",
+				"Snippet: React: getInitialState: fn() { return {...} } "
+			],
+			[
+				"react cl",
+				"Snippet: reactClass"
+			],
+			[
+				"reac",
+				"Snippet: reactClass"
+			],
+			[
+				"REACT CLASS",
+				"Snippet: reactClass"
+			],
+			[
+				"react re",
+				"Snippet: React: render: fn() { return ... }"
+			],
+			[
+				"gulp task",
+				"Snippet: gulp_task"
+			],
+			[
+				"rea",
+				"Snippet: react_class"
+			],
+			[
+				"expres get",
+				"Snippet: express_get"
+			],
+			[
+				"link css",
+				"Snippet: link_css"
+			],
+			[
+				"gul",
+				"Snippet: gulp_sass"
+			],
+			[
+				"gu",
+				"Snippet: gulp_sass"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 529.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/alexandref93/Documents/Prototipos/react-app",
+		"/Users/alexandref93/Documents/Prototipos/react-app/src/view"
+	],
+	"file_history":
+	[
+		"/Users/alexandref93/Documents/Prototipos/react-app/src/app.jsx",
+		"/Users/alexandref93/Documents/Prototipos/react-",
+		"/Users/alexandref93/Documents/Prototipos/react-app/build/app.js",
+		"/Users/alexandref93/Library/Application Support/Sublime Text 3/Packages/User/js_ready.sublime-snippet",
+		"/Users/alexandref93/Documents/Prototipos/react-app/views/singup.jsx",
+		"/Users/alexandref93/Library/Application Support/Sublime Text 3/Packages/User/gulp_task.sublime-snippet",
+		"/Users/alexandref93/Documents/Prototipos/react-app/views/index.jsx",
+		"/Users/alexandref93/Library/Application Support/Sublime Text 3/Packages/User/react_class.sublime-snippet",
+		"/Users/alexandref93/Library/Application Support/Sublime Text 3/Packages/User/express_get.sublime-snippet",
+		"/Users/alexandref93/Library/Application Support/Sublime Text 3/Packages/User/gulp_load_plugins.sublime-snippet",
+		"/Users/alexandref93/Library/Application Support/Sublime Text 3/Packages/User/gulp_default.sublime-snippet",
+		"/Users/alexandref93/Library/Application Support/Sublime Text 3/Packages/User/gulp_sass.sublime-snippet",
+		"/Users/alexandref93/Library/Application Support/Sublime Text 3/Packages/User/gulp_watch.sublime-snippet",
+		"/Users/alexandref93/Dropbox/site-institucional/web/front/assets/js/geral/_parallalax.js",
+		"/Users/alexandref93/Dropbox/site-institucional/src/CMS/CursoBundle/Resources/views/Site/visualizar.html.twig",
+		"/Users/alexandref93/Dropbox/site-institucional/web/front/assets/sass/components/_widget-curso-interno.scss",
+		"/Users/alexandref93/Dropbox/site-institucional/src/CMS/SiteBundle/Resources/views/Helper/paginacao.html.twig",
+		"/Users/alexandref93/Dropbox/site-institucional/web/front/assets/js/blog/_index.js",
+		"/Users/alexandref93/Dropbox/site-institucional/app/config/parameters.yml",
+		"/Users/alexandref93/Dropbox/site-institucional/web/app_dev.sample.php",
+		"/Users/alexandref93/Dropbox/site-institucional/app/config/parameters.yml.dev",
+		"/Users/alexandref93/Documents/Bitbucket/exo/lib/util/index.js",
+		"/Users/alexandref93/Documents/Eventos/front-in-floripa.js",
+		"/Users/alexandref93/Downloads/dev_scar_institucional.sql",
+		"/Users/alexandref93/Dropbox/site-institucional/web/front/assets/js/programacao-interna/_index.js",
+		"/Users/alexandref93/Dropbox/site-institucional/src/CMS/EventoBundle/Resources/views/Site/visualizar.html.twig",
+		"/Users/alexandref93/Dropbox/site-institucional/web/front/assets/js/programacao-interna/_modal-ingresso.js",
+		"/Users/alexandref93/Dropbox/site-institucional/web/front/assets/sass/plugins/_magnific-popup.scss",
+		"/Users/alexandref93/Dropbox/site-institucional/web/front/assets/sass/style.scss",
+		"/Users/alexandref93/Dropbox/site-institucional/web/front/assets/js/lib/_modal.js",
+		"/Users/alexandref93/Dropbox/site-institucional/web/front/assets/js/espaco-interno/_index.js",
+		"/Users/alexandref93/Dropbox/site-institucional/web/front/assets/js/programacao-interna/_horarios.js",
+		"/Users/alexandref93/Dropbox/site-institucional/web/front/assets/sass/components/_widget-numeros.scss",
+		"/Users/alexandref93/Dropbox/site-institucional/src/CMS/SiteBundle/Resources/views/Sobre/numero.html.twig",
+		"/Users/alexandref93/Dropbox/site-institucional/src/CMS/SiteBundle/Resources/views/Template/base.html.twig",
+		"/Users/alexandref93/Desktop/index.html",
+		"/Users/alexandref93/Dropbox/site-institucional/web/front/assets/js/blog-interno/_index.js",
+		"/Users/alexandref93/Dropbox/site-institucional/web/front/assets/sass/components/_widget-blog-interno.scss",
+		"/Users/alexandref93/Dropbox/site-institucional/src/CMS/SiteBundle/Resources/views/Blog/visualizar.html.twig",
+		"/Users/alexandref93/Dropbox/site-institucional/web/front/assets/js/blog-interno.js",
+		"/Users/alexandref93/Dropbox/site-institucional/src/CMS/SiteBundle/Resources/views/ConteudoEditorial/index.html.twig",
+		"/Users/alexandref93/Dropbox/site-institucional/web/front/assets/js/conteudo-editorial/_index.js",
+		"/Users/alexandref93/Dropbox/site-institucional/web/front/assets/js/conteudo-editorial.js",
+		"/Users/alexandref93/Dropbox/site-institucional/web/front/assets/sass/components/_widget-conteudo-editorial.scss",
+		"/Users/alexandref93/Dropbox/site-institucional/web/front/assets/js/lib/_blur.js",
+		"/Users/alexandref93/Dropbox/site-institucional/src/CMS/SiteBundle/Controller/SobreController.php",
+		"/Users/alexandref93/Dropbox/site-institucional/src/CMS/SiteBundle/Resources/config/routing.yml",
+		"/Users/alexandref93/Dropbox/site-institucional/web/front/assets/sass/components/_widget-institucional.scss",
+		"/Users/alexandref93/Dropbox/site-institucional/src/CMS/SiteBundle/Resources/views/Sobre/institucional.html.twig",
+		"/Users/alexandref93/Dropbox/site-institucional/web/info.php",
+		"/Users/alexandref93/Dropbox/site-institucional/node_modules/gulp-util/lib/isNull.js",
+		"/Users/alexandref93/Dropbox/site-institucional/bower/fit-vids/index.js",
+		"/Users/alexandref93/Dropbox/site-institucional/node_modules/tiny-lr/examples/express/index.html",
+		"/Users/alexandref93/Dropbox/site-institucional/src/CMS/CoreBundle/Resources/views/ArquivoLegenda/index.html.twig",
+		"/Users/alexandref93/Dropbox/site-institucional/composer.json",
+		"/Users/alexandref93/Dropbox/site-institucional/.sass-cache/de83122d4d3f1aa2e6ec8e8696749dccb3d3976f/_convert-units.scssc",
+		"/Users/alexandref93/Dropbox/site-institucional/web/front/assets/js/contato/_index.js",
+		"/Users/alexandref93/Dropbox/site-institucional/web/front/assets/js/contato.js",
+		"/Users/alexandref93/Dropbox/site-institucional/src/CMS/SiteBundle/Resources/views/Blog/index.html.twig",
+		"/Users/alexandref93/Dropbox/site-institucional/src/CMS/SiteBundle/Resources/views/Blog/widget-noticias.html.twig",
+		"/Users/alexandref93/Dropbox/site-institucional/src/CMS/SiteBundle/Resources/views/Home/index.html.twig",
+		"/Users/alexandref93/Dropbox/site-institucional/web/front/assets/sass/components/_widget-noticias.scss",
+		"/Users/alexandref93/Dropbox/site-institucional/web/front/assets/sass/paginas/blog.scss",
+		"/Users/alexandref93/Dropbox/site-institucional/web/front/assets/sass/components/_widget-blog.scss",
+		"/Users/alexandref93/Dropbox/site-institucional/src/CMS/ContatoBundle/Resources/views/Site/FaleConosco/form.html.twig",
+		"/Users/alexandref93/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/alexandref93/Dropbox/site-institucional/vendor/composer/installed.json",
+		"/Users/alexandref93/Dropbox/site-institucional/vendor/symfony/symfony/src/Symfony/Component/Process/Tests/ProcessInSigchildEnvironment.php",
+		"/Users/alexandref93/Dropbox/site-institucional/bower/bourbon/helpers/_is-num.scss"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 119.0,
+		"where_history":
+		[
+			"/Users/alexandref93/Dropbox/site-institucional"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"console",
+			"usu",
+			"({})",
+			" ",
+			"));",
+			"data",
+			";\n",
+			"255",
+			"CONTE",
+			"N",
+			"front/build/mocks/",
+			"div",
+			"image",
+			"música",
+			"O maior distribuidor de foto produtos e a melhor prensa térmica do Brasil.",
+			"error.html.twig",
+			"Ooops, um erro"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 648,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								66,
+								66
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "comments.json",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 218,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/view/app.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 707,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29,
+								29
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 177,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								63,
+								63
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/alexandref93/Library/Application Support/Sublime Text 3/Packages/User/gulp_watch_src.sublime-snippet",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 305,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								49,
+								49
+							]
+						],
+						"settings":
+						{
+							"default_extension": "sublime-snippet",
+							"syntax": "Packages/XML/XML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/alexandref93/Library/Application Support/Sublime Text 3/Packages/User/gulp_react.sublime-snippet",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 542,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								69,
+								69
+							]
+						],
+						"settings":
+						{
+							"default_extension": "sublime-snippet",
+							"syntax": "Packages/XML/XML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "react-app.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 270.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

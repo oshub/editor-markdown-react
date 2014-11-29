@@ -1,0 +1,19 @@
+{
+  "name": "react-app",
+  "devDependencies": {
+    "browserify": "^6.3.3",
+    "gulp": "^3.8.10",
+    "gulp-load-plugins": "^0.7.1",
+    "gulp-ruby-sass": "^0.7.1",
+    "gulp-uglify": "^1.0.1",
+    "reactify": "^0.17.1",
+    "readable-stream": "^1.0.33",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.0.0",
+    "xtend": "^4.0.0"
+  },
+  "dependencies": {
+    "react": "^0.12.1",
+    "underscore": "^1.7.0"
+  }
+}
