@@ -1,8 +1,14 @@
 module.exports = [
 	{
-		name: 'File'
+		name: 'Bold'
 	},
 	{
-		name: 'Edit'
+		name: 'Italic'
+	},
+	{
+		name: 'Hyperlink'
+	},
+	{
+		name: 'Blockquote'
 	}
 ];

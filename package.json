@@ -4,6 +4,7 @@
     "browserify": "^6.3.3",
     "gulp": "^3.8.10",
     "gulp-load-plugins": "^0.7.1",
+    "gulp-plumber": "^0.6.6",
     "gulp-ruby-sass": "^0.7.1",
     "gulp-uglify": "^1.0.1",
     "reactify": "^0.17.1",
@@ -13,7 +14,9 @@
     "xtend": "^4.0.0"
   },
   "dependencies": {
+    "dropbox": "^0.10.3",
     "react": "^0.12.1",
+    "showdown": "^0.3.1",
     "underscore": "^1.7.0"
   }
 }

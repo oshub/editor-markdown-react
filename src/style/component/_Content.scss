@@ -1,0 +1,31 @@
+.content {
+	width: 100%;
+	height: 85%;
+	float: left;
+}
+
+.contentEditable, 
+.contentPreview {
+	width: 50%;
+	height: 100%;
+	float: left;
+	background-color: #151718;
+	color: #fff;
+	padding: 10px;
+	outline: 0;
+}
+
+.contentEditable {
+	textarea {
+		width: 100%;
+		height: 100%;
+		border: none;
+		background-color: #151718;
+		resize: none;
+		outline: 0;
+	}
+}
+
+.contentPreview {
+
+}

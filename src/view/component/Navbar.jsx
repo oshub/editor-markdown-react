@@ -12,13 +12,11 @@ var Navbar = React.createClass({
   	});
 
     return (
-		<header>
-			<nav>
-				<ul>
-					{menu}
-				</ul>
-			</nav>
-		</header>
+		<nav className="navbar">
+			<ul className="navbarWrap">
+				{menu}
+			</ul>
+		</nav>
     );
   }
 });

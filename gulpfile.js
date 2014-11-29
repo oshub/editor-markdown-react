@@ -7,6 +7,7 @@ var buffer = require('vinyl-buffer');
 
 gulp.task('style', function(){
 	gulp.src('src/style/**/*.scss')
+	.pipe($.plumber())
 	.pipe($.rubySass())
 	.pipe(gulp.dest('build/style'));
 });
@@ -16,8 +17,8 @@ gulp.task('react', function() {
     .transform(reactify)
     .bundle()
     .pipe(source('bundle.js'))
-    .pipe(buffer())
-    .pipe($.uglify())
+    // .pipe(buffer())
+    // .pipe($.uglify())
     .pipe(gulp.dest('build/jsx'));
 });
 

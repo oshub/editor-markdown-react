@@ -5,7 +5,7 @@ var React = require('react');
 var NavbarItem = React.createClass({
   render: function() {
     return (
-		<li>{this.props.name}</li>
+		<li className="navbarItem">{this.props.name}</li>
     );
   }
 });
