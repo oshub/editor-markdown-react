@@ -13,11 +13,39 @@ var Content = React.createClass({
 	updateContent: function(content) {
 		this.setState({content: content});
 	},
+	fireDidMount: function() {
+		if (this.contentEditable && this.props.didMount) {
+			this.props.didMount({
+				contentEditable: this.contentEditable
+			});
+		}
+	},
+	editableDidMount: function(refs) {
+		this.contentEditable = refs.contentEditable;
+		this.fireDidMount();
+	},
+	previewDidMount: function(refs) {
+		this.contentPreview = refs.contentPreview;
+		this.fireDidMount();
+	},
 	render: function() {
+
+		var contentEditable = {
+			content: this.state.content,
+			onUp: this.updateContent,
+			didMount: this.editableDidMount,
+			keyUp: this.props.keyUp
+		};
+
+		var contentPreview = {
+			content: this.state.content,
+			didMount: this.previewDidMount
+		}
+
 		return (
 			<div className="content">
-				<ContentEditable content={this.state.content} onUp={this.updateContent} />
-				<ContentPreview content={this.state.content} />
+				<ContentEditable {...contentEditable}/>
+				<ContentPreview {...contentPreview} />
 			</div>
 		);
 	}

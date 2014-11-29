@@ -24,7 +24,7 @@ gulp.task('react', function() {
 
 gulp.task('watch', function(){
 	gulp.watch('src/style/**/*.scss', ['style']);
-	gulp.watch('src/view/**/*.jsx', ['react']);
+	gulp.watch(['src/view/**/*.jsx', 'src/config/*.js'], ['react']);
 });
 
 gulp.task('default', ['style', 'react', 'watch']);

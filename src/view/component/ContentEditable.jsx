@@ -19,17 +19,30 @@ var ContentEditable = React.createClass({
 		this.setState({content: content});
 	},
 	componentDidMount: function() {
-		this.refs.textarea.getDOMNode().focus();
+		if (this.props.didMount) {
+			this.props.didMount({
+				contentEditable: this.refs.textarea
+			});
+		}
+	},
+	onKeyUp: function(e) {
+		if (this.props.keyUp) {
+			this.props.keyUp(e);
+		}
 	},
 	render: function() {
+
+		var textarea = {
+			ref: "textarea",
+			defaultValue: this.state.content,
+			onInput: this.change,
+			onBlur: this.change,
+			onKeyUp: this.onKeyUp
+		};
+
 		return (
 			<div className="contentEditable">
-				<textarea 
-				ref="textarea"
-				defaultValue={this.state.content}
-				onInput={this.change} 
-				onBlur={this.change}
-				></textarea>
+				<textarea {...textarea} ></textarea>
 			</div>
 		);
 	}

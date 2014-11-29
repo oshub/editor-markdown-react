@@ -10,5 +10,16 @@ module.exports = [
 	},
 	{
 		name: 'Blockquote'
+	},
+	{
+		name: 'Save',
+		right: true,
+		action: function(content){
+
+		}
+	},
+	{
+		name: 'New File',
+		right: true
 	}
 ];

@@ -4,8 +4,15 @@ var React = require('react');
 
 var NavbarItem = React.createClass({
   render: function() {
+
+  	var className = (this.props.right) ? 'navbarItem right' : 'navbarItem';
+
     return (
-		<li className="navbarItem">{this.props.name}</li>
+		<li className={className}>
+			<button>
+				{this.props.name}
+			</button>
+		</li>
     );
   }
 });
