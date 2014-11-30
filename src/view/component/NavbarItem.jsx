@@ -3,18 +3,23 @@
 var React = require('react');
 
 var NavbarItem = React.createClass({
-  render: function() {
+	handle: function() {
+		if (this.props.click) {
+			this.props.click(this.props.index);
+		}
+	},
+	render: function() {
 
-  	var className = (this.props.right) ? 'navbarItem right' : 'navbarItem';
+		var className = (this.props.right) ? 'navbarItem right' : 'navbarItem';
 
-    return (
-		<li className={className}>
-			<button>
-				{this.props.name}
-			</button>
-		</li>
-    );
-  }
+		return (
+			<li className={className}>
+				<button onClick={this.handle}>
+					{this.props.name}
+				</button>
+			</li>
+		);
+	}
 });
 
 module.exports = NavbarItem;

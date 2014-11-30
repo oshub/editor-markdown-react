@@ -15,7 +15,7 @@ module.exports = [
 		name: 'Save',
 		right: true,
 		action: function(content){
-
+			console.log(content.getDOMNode().value);
 		}
 	},
 	{

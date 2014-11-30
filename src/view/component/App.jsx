@@ -9,11 +9,12 @@ var App = React.createClass({
 
     getInitialState: function() {
         return {
-            modalOpen: true 
+            modalOpen: true,
+            contentEditable: undefined
         };
     },
     contentDidMount: function(refs) {
-        this.contentEditable = refs.contentEditable;
+        this.setState({contentEditable: refs.contentEditable});
     },
     componentDidMount: function() {
 
@@ -22,7 +23,7 @@ var App = React.createClass({
 
         var modalProps = {
             onNewFile: function() {
-                this.contentEditable.getDOMNode().focus();
+                this.state.contentEditable.getDOMNode().focus();
             }.bind(this),
             open: this.state.modalOpen
         };
@@ -34,7 +35,7 @@ var App = React.createClass({
         return (
         	<div className="app">
         		<header className="headerMain">
-        			<Navbar />
+        			<Navbar contentEditable={this.state.contentEditable} />
         		</header>
         		<Content {...contentProps} />
                 <Modal {...modalProps} />
